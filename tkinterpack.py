@@ -1,0 +1,17 @@
+
+import tkinter
+root=tkinter.Tk()
+root.config(bg='red')
+b1=tkinter.Button(root,text="click me")
+b2=tkinter.Button(root,text="Clear")
+l1=tkinter.Label(root,text="ENTER THE NAME")
+l2=tkinter.Label(root,text="ENTER THE NUMBER")
+t1=tkinter.Entry(root)
+t2=tkinter.Entry(root)
+l1.pack(side="left")
+t1.pack(fill="x")
+l2.pack(padx=10,pady=10)
+t2.pack(fill="x")
+b1.pack(anchor="s")
+b2.pack(expand="True")
+root.mainloop()
